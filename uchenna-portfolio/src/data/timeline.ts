@@ -5,7 +5,7 @@ export const timeline: TimelineItem[] = [
     year: "2023",
     title: "B.S. in Computer Science",
     detail:
-      "Graduated with a Bachelor of Science in Computer Science and began focusing on full-stack development with a security-driven mindset.",
+      "Graduated with a Bachelor of Science in Computer Science frpm UGA and began focusing on full-stack development with a security-driven mindset.",
   },
   {
     year: "2024",

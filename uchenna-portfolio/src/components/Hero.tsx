@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import PixelCard from "./PixelCard";
 import Icon from "./Icon";
 
-import meImg from "../assets/me.jpeg";
+import meImg from "../assets/me.png";
 
 const EMAIL = "uchennanwilliams@gmail.com";
 

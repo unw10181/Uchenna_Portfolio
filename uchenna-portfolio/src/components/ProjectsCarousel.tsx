@@ -14,7 +14,7 @@ export default function ProjectsCarousel() {
       <SectionTitle
         kicker="STAGE SELECT"
         title="Projects Carousel"
-        subtitle="AOS on scroll + Framer Motion on hover."
+        subtitle=""
       />
 
       <div className="flex items-center justify-between gap-3">
