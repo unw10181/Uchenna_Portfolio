@@ -45,7 +45,7 @@ export default function Hero() {
                 download
                 className="inline-flex items-center rounded-lg bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-4 py-3 text-xs font-bold text-black shadow-glow"
               >
-                <Icon name="download" /> DOWNLOAD RESUME
+                DOWNLOAD RESUME
               </a>
 
               <a
