@@ -6,7 +6,7 @@ export default {
     extend: {
       fontFamily: {
         arcade: [
-          "'MangaTB'",
+          "'ArcadeClassic'",
           "ui-monospace",
           "SFMono-Regular",
           "Menlo",
