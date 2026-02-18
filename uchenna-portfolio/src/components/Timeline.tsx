@@ -17,7 +17,7 @@ export default function Timeline() {
             <PixelCard className="p-5">
               <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="grid h-10 w-10 place-items-center rounded-lg bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400 font-arcade text-sm text-black">
+                  <div className="grid h-10 w-10 place-items-center rounded-lg bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 font-arcade text-sm text-black">
                     {idx + 1}
                   </div>
                   <div>

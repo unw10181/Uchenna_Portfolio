@@ -52,7 +52,7 @@ export default function ProjectsCarousel() {
                   className="group w-full text-left"
                 >
                   <div
-                    className={cn("h-44 w-full bg-gradient-to-br", p.accent)}
+                    className={cn("h-44 w-full bg-linear-to-br", p.accent)}
                   >
                     <img
                       src={p.image}

@@ -25,7 +25,7 @@ export default function SkillsPanel() {
             <PixelCard className="p-5">
               <div className="flex items-center justify-between">
                 <div className="font-arcade text-lg">{s.name}</div>
-                <div className="rounded-lg bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-3 py-1 text-xs font-black text-black">
+                <div className="rounded-lg bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-3 py-1 text-xs font-black text-black">
                   RANK {s.rank}
                 </div>
               </div>
@@ -37,7 +37,7 @@ export default function SkillsPanel() {
                 </div>
                 <div className="h-3 overflow-hidden rounded-full border border-black/10 bg-black/5 dark:border-white/10 dark:bg-white/10">
                   <div
-                    className="h-full bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400"
+                    className="h-full bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400"
                     style={{ width: `${s.level}%` }}
                   />
                 </div>
