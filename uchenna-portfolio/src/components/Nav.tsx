@@ -16,7 +16,7 @@ export default function Nav({
           onClick={() => onJump("top")}
           className="group flex items-center gap-3"
         >
-          <div className="grid h-9 w-9 place-items-center rounded-lg border border-black/10 bg-gradient-to-br from-purple-500/20 via-cyan-400/15 to-fuchsia-500/20 dark:border-white/10">
+          <div className="grid h-9 w-9 place-items-center rounded-lg border border-black/10 bg-linear-to-br from-purple-500/20 via-cyan-400/15 to-fuchsia-500/20 dark:border-white/10">
             <span className="font-arcade text-sm">UW</span>
           </div>
           <div>

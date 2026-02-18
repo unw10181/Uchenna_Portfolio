@@ -21,7 +21,7 @@ export default function Contact() {
           </p>
 
           <a
-            className="mt-4 inline-flex items-center rounded-lg bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-4 py-3 text-xs font-black text-black shadow-glow"
+            className="mt-4 inline-flex items-center rounded-lg bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-4 py-3 text-xs font-black text-black shadow-glow"
             href={`mailto:${EMAIL}?subject=Portfolio%20Contact&body=Hey%20Uchenna%2C%0A%0A`}
           >
             <Icon name="mail" />
@@ -68,7 +68,7 @@ export default function Contact() {
             />
             <button
               type="submit"
-              className="inline-flex items-center rounded-lg bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-4 py-3 text-xs font-black text-black shadow-glow"
+              className="inline-flex items-center rounded-lg bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-4 py-3 text-xs font-black text-black shadow-glow"
             >
               <Icon name="mail" /> OPEN EMAIL DRAFT
             </button>

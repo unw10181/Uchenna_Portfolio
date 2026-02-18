@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl dark:bg-purple-500/25" />
         <div className="absolute -right-28 top-24 h-80 w-80 rounded-full bg-cyan-400/20 blur-3xl dark:bg-cyan-400/15" />
-        <div className="absolute bottom-0 left-1/2 h-80 w-[46rem] -translate-x-1/2 bg-gradient-to-r from-purple-500/10 via-fuchsia-500/10 to-cyan-400/10 blur-2xl" />
+        <div className="absolute bottom-0 left-1/2 h-80 w-184 -translate-x-1/2 bg-linear-to-r from-purple-500/10 via-fuchsia-500/10 to-cyan-400/10 blur-2xl" />
       </div>
 
       <div className="mx-auto max-w-6xl px-4 pb-10 pt-10 sm:pt-14">
@@ -29,7 +29,7 @@ export default function Hero() {
               className="mt-5 font-arcade text-3xl leading-tight sm:text-5xl"
             >
               Retro Dev Portfolio
-              <span className="block bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400 bg-clip-text text-transparent">
+              <span className="block bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 bg-clip-text text-transparent">
                 (Game Mode: ON)
               </span>
             </motion.h1>
@@ -43,7 +43,7 @@ export default function Hero() {
               <a
                 href="/Uchenna-Williams-Resume.pdf"
                 download
-                className="inline-flex items-center rounded-lg bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-4 py-3 text-xs font-bold text-black shadow-glow"
+                className="inline-flex items-center rounded-lg bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 px-4 py-3 text-xs font-bold text-black shadow-glow"
               >
                 <Icon name="download" /> DOWNLOAD RESUME
               </a>
@@ -88,7 +88,7 @@ export default function Hero() {
               </div>
 
               <div className="mt-4 grid gap-4 sm:grid-cols-[120px_1fr] sm:items-center">
-                <div className="relative mx-auto h-[120px] w-[120px] overflow-hidden rounded-xl border border-black/10 shadow-sm dark:border-white/10">
+                <div className="relative mx-auto h-30 w-30 overflow-hidden rounded-xl border border-black/10 shadow-sm dark:border-white/10">
                   <img
                     src={meImg}
                     alt="Portrait"
@@ -103,7 +103,7 @@ export default function Hero() {
                       <span>82 / 100</span>
                     </div>
                     <div className="h-3 overflow-hidden rounded-full border border-black/10 bg-black/5 dark:border-white/10 dark:bg-white/10">
-                      <div className="h-full w-[82%] bg-gradient-to-r from-purple-500 via-fuchsia-500 to-cyan-400" />
+                      <div className="h-full w-[82%] bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400" />
                     </div>
                   </div>
 
