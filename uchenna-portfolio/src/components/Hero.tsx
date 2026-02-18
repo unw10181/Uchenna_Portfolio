@@ -30,7 +30,7 @@ export default function Hero() {
             >
               Welcome to Uchenna's Portfolio
               <span className="block bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 bg-clip-text text-transparent">
-                (Level: 1)
+                Level: 1
               </span>
             </motion.h1>
 
@@ -92,7 +92,7 @@ export default function Hero() {
                   <img
                     src={meImg}
                     alt="Portrait"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-cover object-[50%_20%]"
                   />
                 </div>
 
