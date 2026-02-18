@@ -9,7 +9,7 @@ export const projects: Project[] = [
     title: "CryptoSensei",
     subtitle: "Risk-free crypto trading application",
     stack: ["MERN", "Vite", "TailwindCSS"],
-    live: "https://cryptosenseii.netlify.app/login",
+    live: "https://cryptosenseii.netlify.app/",
     fe: "https://github.com/unw10181/cryptoSensei",
     be: "https://github.com/unw10181/cryptoSensei-backend",
     image: cryptoImg,
