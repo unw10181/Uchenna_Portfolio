@@ -7,11 +7,7 @@ import { skills } from "../data/skills";
 export default function SkillsPanel() {
   return (
     <div id="skills" className="mx-auto max-w-6xl px-4 py-12">
-      <SectionTitle
-        kicker="LOADOUT"
-        title="Skills (Gamer UI)"
-        subtitle="XP bars + ranks. AOS fade + motion hover."
-      />
+      <SectionTitle kicker="LOADOUT" title="Skills" subtitle="" />
 
       <div className="grid gap-4 md:grid-cols-2">
         {skills.map((s) => (
