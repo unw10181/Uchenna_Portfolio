@@ -30,7 +30,7 @@ export default function Hero() {
             >
               Retro Dev Portfolio
               <span className="block bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 bg-clip-text text-transparent">
-                (Game Mode: ON)
+                (Level: 1)
               </span>
             </motion.h1>
 
