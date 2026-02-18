@@ -1,7 +1,7 @@
 @import "tailwindcss";
+@import "aos/dist/aos.css";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
+/* Custom font */
 @font-face {
   font-family: "MangaTB";
   src: url("./fonts/mangatb.ttf") format("truetype");
@@ -9,17 +9,19 @@
   font-style: normal;
   font-display: swap;
 }
-body {
-  font-family: heroLegend;
+
+/* Dark mode variables */
+:root {
+  --bg: 255 255 255;
+  --fg: 10 10 14;
 }
 
 .dark {
-  color-scheme: dark;
+  --bg: 7 8 12;
+  --fg: 238 238 248;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-h1 {
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
 }
