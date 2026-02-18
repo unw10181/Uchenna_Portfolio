@@ -24,9 +24,7 @@ export default function ProjectsCarousel() {
         >
           ◀ PREV
         </button>
-        <div className="text-[11px] text-black/60 dark:text-white/60">
-          Tip: swipe on mobile
-        </div>
+        <div className="text-[11px] text-black/60 dark:text-white/60"></div>
         <button
           onClick={() => emblaApi?.scrollNext()}
           className="rounded-lg border border-black/10 bg-white/70 px-3 py-2 text-xs font-bold hover:bg-white dark:border-white/10 dark:bg-white/10 dark:hover:bg-white/15"
@@ -51,9 +49,7 @@ export default function ProjectsCarousel() {
                   onClick={() => window.open(p.live, "_blank", "noreferrer")}
                   className="group w-full text-left"
                 >
-                  <div
-                    className={cn("h-44 w-full bg-linear-to-br", p.accent)}
-                  >
+                  <div className={cn("h-44 w-full bg-linear-to-br", p.accent)}>
                     <img
                       src={p.image}
                       alt={`${p.title} screenshot`}
