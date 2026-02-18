@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="grid items-center gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <div className="inline-flex items-center rounded-lg border border-black/10 bg-white/60 px-3 py-2 text-[11px] font-semibold text-black/70 dark:border-white/10 dark:bg-white/10 dark:text-white/70">
-              <Icon name="bolt" /> QUEST LOG: Build • Secure • Ship
+              <Icon name="bolt" /> Never Give UP
             </div>
 
             <motion.h1
@@ -28,7 +28,7 @@ export default function Hero() {
               transition={{ duration: 0.45 }}
               className="mt-5 font-arcade text-3xl leading-tight sm:text-5xl"
             >
-              Retro Dev Portfolio
+              Welcome to Uchenna's Portfolio
               <span className="block bg-linear-to-r from-purple-500 via-fuchsia-500 to-cyan-400 bg-clip-text text-transparent">
                 (Level: 1)
               </span>
